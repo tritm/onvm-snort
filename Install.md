@@ -55,6 +55,7 @@ This guide helps you build and install Snort.
 
 2. Clean the build. 
     ```sh
+    ./configure
     make clean
     ```
     
