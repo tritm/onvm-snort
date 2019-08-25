@@ -38,6 +38,8 @@ This guide helps you build and install Snort.
 2. Compile onvm.
     ```sh
     cd onvm && make
+    cd /local/onvm/onvm-snort/openNetVM-dev/examples
+    root@node1:/local/onvm/onvm-snort/openNetVM-dev/examples# make
     ```
 ---
 3. Compile DAQ
