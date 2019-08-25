@@ -125,7 +125,7 @@ This guide helps you build and install Snort.
 2. Run openNetVM manager. To install openNetVM, refer to this [guide][onvm-install].
     ```sh
     cd openNetVM-dev/onvm
-    ./go.sh 0,1,2,3,4 3 -v 0x7f000000000
+    ./go.sh 0,1,2,3,4 3 -v 0x7f000000000 -s stdout
     ```
 3. Run Snort.
     ```sh
